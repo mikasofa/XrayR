@@ -19,7 +19,7 @@ import (
 	"github.com/sagernet/sing-shadowsocks/shadowaead_2022"
 	C "github.com/sagernet/sing/common"
 
-	"github.com/XrayR-project/XrayR/api"
+	"github.com/mikasofa/XrayR/api"
 )
 
 // APIClient create an api client to the panel.
@@ -263,7 +263,7 @@ func (c *APIClient) GetUserList() (UserList *[]api.UserInfo, err error) {
 		if c.DeviceLimit > 0 {
 			user.DeviceLimit = c.DeviceLimit
 		}
-		
+
 		userList[i] = user
 	}
 	return &userList, nil

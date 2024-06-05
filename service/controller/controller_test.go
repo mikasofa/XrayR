@@ -11,11 +11,11 @@ import (
 	"github.com/mikasofa/xray-core/core"
 	"github.com/mikasofa/xray-core/infra/conf"
 
-	"github.com/XrayR-project/XrayR/api"
-	"github.com/XrayR-project/XrayR/api/sspanel"
-	_ "github.com/XrayR-project/XrayR/cmd/distro/all"
-	"github.com/XrayR-project/XrayR/common/mylego"
-	. "github.com/XrayR-project/XrayR/service/controller"
+	"github.com/mikasofa/XrayR/api"
+	"github.com/mikasofa/XrayR/api/sspanel"
+	_ "github.com/mikasofa/XrayR/cmd/distro/all"
+	"github.com/mikasofa/XrayR/common/mylego"
+	. "github.com/mikasofa/XrayR/service/controller"
 )
 
 func TestController(t *testing.T) {

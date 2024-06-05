@@ -25,8 +25,8 @@ import (
 	"github.com/mikasofa/xray-core/transport"
 	"github.com/mikasofa/xray-core/transport/pipe"
 
-	"github.com/XrayR-project/XrayR/common/limiter"
-	"github.com/XrayR-project/XrayR/common/rule"
+	"github.com/mikasofa/XrayR/common/limiter"
+	"github.com/mikasofa/XrayR/common/rule"
 )
 
 var errSniffingTimeout = newError("timeout on sniffing")

@@ -11,8 +11,8 @@ import (
 	"github.com/mikasofa/xray-core/features/stats"
 	"github.com/mikasofa/xray-core/proxy"
 
-	"github.com/XrayR-project/XrayR/api"
-	"github.com/XrayR-project/XrayR/common/limiter"
+	"github.com/mikasofa/XrayR/api"
+	"github.com/mikasofa/XrayR/common/limiter"
 )
 
 func (c *Controller) removeInbound(tag string) error {

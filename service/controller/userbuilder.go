@@ -15,7 +15,7 @@ import (
 	"github.com/sagernet/sing-shadowsocks/shadowaead_2022"
 	C "github.com/sagernet/sing/common"
 
-	"github.com/XrayR-project/XrayR/api"
+	"github.com/mikasofa/XrayR/api"
 )
 
 var AEADMethod = map[shadowsocks.CipherType]uint8{

@@ -19,7 +19,7 @@ import (
 	"github.com/mikasofa/xray-core/common/net"
 	"github.com/mikasofa/xray-core/infra/conf"
 
-	"github.com/XrayR-project/XrayR/api"
+	"github.com/mikasofa/XrayR/api"
 )
 
 // APIClient create an api client to the panel.
