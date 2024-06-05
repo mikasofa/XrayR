@@ -1,6 +1,6 @@
 package mydispatcher
 
-//go:generate go run github.com/xtls/xray-core/common/errors/errorgen
+//go:generate go run github.com/mikasofa/xray-core/common/errors/errorgen
 
 import (
 	"context"
@@ -9,21 +9,21 @@ import (
 	"sync"
 	"time"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/log"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/session"
-	"github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/features/dns"
-	"github.com/xtls/xray-core/features/outbound"
-	"github.com/xtls/xray-core/features/policy"
-	"github.com/xtls/xray-core/features/routing"
-	routingSession "github.com/xtls/xray-core/features/routing/session"
-	"github.com/xtls/xray-core/features/stats"
-	"github.com/xtls/xray-core/transport"
-	"github.com/xtls/xray-core/transport/pipe"
+	"github.com/mikasofa/xray-core/common"
+	"github.com/mikasofa/xray-core/common/buf"
+	"github.com/mikasofa/xray-core/common/log"
+	"github.com/mikasofa/xray-core/common/net"
+	"github.com/mikasofa/xray-core/common/protocol"
+	"github.com/mikasofa/xray-core/common/session"
+	"github.com/mikasofa/xray-core/core"
+	"github.com/mikasofa/xray-core/features/dns"
+	"github.com/mikasofa/xray-core/features/outbound"
+	"github.com/mikasofa/xray-core/features/policy"
+	"github.com/mikasofa/xray-core/features/routing"
+	routingSession "github.com/mikasofa/xray-core/features/routing/session"
+	"github.com/mikasofa/xray-core/features/stats"
+	"github.com/mikasofa/xray-core/transport"
+	"github.com/mikasofa/xray-core/transport/pipe"
 
 	"github.com/XrayR-project/XrayR/common/limiter"
 	"github.com/XrayR-project/XrayR/common/rule"

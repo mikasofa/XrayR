@@ -17,8 +17,8 @@ import (
 	"github.com/bitly/go-simplejson"
 	"github.com/go-resty/resty/v2"
 	"github.com/gogf/gf/v2/util/gconv"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/infra/conf"
+	"github.com/mikasofa/xray-core/common/net"
+	"github.com/mikasofa/xray-core/infra/conf"
 
 	"github.com/XrayR-project/XrayR/api"
 )

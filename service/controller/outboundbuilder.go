@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/infra/conf"
+	"github.com/mikasofa/xray-core/core"
+	"github.com/mikasofa/xray-core/infra/conf"
 
 	"github.com/XrayR-project/XrayR/api"
 )

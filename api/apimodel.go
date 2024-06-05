@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"regexp"
 
-	"github.com/xtls/xray-core/infra/conf"
+	"github.com/mikasofa/xray-core/infra/conf"
 )
 
 const (

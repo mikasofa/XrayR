@@ -4,12 +4,12 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/features/inbound"
-	"github.com/xtls/xray-core/features/outbound"
-	"github.com/xtls/xray-core/features/stats"
-	"github.com/xtls/xray-core/proxy"
+	"github.com/mikasofa/xray-core/common/protocol"
+	"github.com/mikasofa/xray-core/core"
+	"github.com/mikasofa/xray-core/features/inbound"
+	"github.com/mikasofa/xray-core/features/outbound"
+	"github.com/mikasofa/xray-core/features/stats"
+	"github.com/mikasofa/xray-core/proxy"
 
 	"github.com/XrayR-project/XrayR/api"
 	"github.com/XrayR-project/XrayR/common/limiter"
