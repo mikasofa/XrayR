@@ -304,6 +304,10 @@ func (c *Controller) nodeInfoMonitor() (err error) {
 				}
 			}
 		}
+		err := c.restoreTotalBuffer(c.Tag)
+		if err != nil {
+			return err
+		}
 		c.logger.Printf("%d user deleted, %d user added", len(deleted), len(added))
 	}
 	c.userList = newUserInfo

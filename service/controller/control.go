@@ -82,6 +82,24 @@ func (c *Controller) addUsers(users []*protocol.User, tag string) error {
 	return nil
 }
 
+func (c *Controller) restoreTotalBuffer(tag string) error {
+	handler, err := c.ibm.GetHandler(context.Background(), tag)
+	if err != nil {
+		return fmt.Errorf("no such inbound tag: %s", err)
+	}
+	inboundInstance, ok := handler.(proxy.GetInbound)
+	if !ok {
+		return fmt.Errorf("handler %s has not implemented proxy.GetInbound", tag)
+	}
+
+	userManager, ok := inboundInstance.GetInbound().(proxy.UserManager)
+	if !ok {
+		return fmt.Errorf("handler %s has not implemented proxy.UserManager", tag)
+	}
+	userManager.RestoreTotalBuffer()
+	return nil
+}
+
 func (c *Controller) removeUsers(users []string, tag string) error {
 	handler, err := c.ibm.GetHandler(context.Background(), tag)
 	if err != nil {
