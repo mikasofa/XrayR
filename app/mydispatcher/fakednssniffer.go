@@ -34,6 +34,7 @@ func newFakeDNSSniffer(ctx context.Context) (protocolSnifferWithMetadata, error)
 				return &fakeDNSSniffResult{domainName: domainFromFakeDNS}, nil
 			}
 		}
+		// may cause err
 
 		if ipAddressInRangeValueI := ctx.Value(ipAddressInRange); ipAddressInRangeValueI != nil {
 			ipAddressInRangeValue := ipAddressInRangeValueI.(*ipAddressInRangeOpt)
