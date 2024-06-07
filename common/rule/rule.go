@@ -10,7 +10,7 @@ import (
 
 	mapset "github.com/deckarep/golang-set"
 
-	"github.com/mikasofa/XrayR/api"
+	"github.com/xrayr-project/xrayr/api"
 )
 
 type Manager struct {

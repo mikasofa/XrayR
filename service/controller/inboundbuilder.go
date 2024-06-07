@@ -15,8 +15,8 @@ import (
 	"github.com/xtls/xray-core/core"
 	"github.com/xtls/xray-core/infra/conf"
 
-	"github.com/mikasofa/XrayR/api"
-	"github.com/mikasofa/XrayR/common/mylego"
+	"github.com/xrayr-project/xrayr/api"
+	"github.com/xrayr-project/xrayr/common/mylego"
 )
 
 // InboundBuilder build Inbound config for different protocol

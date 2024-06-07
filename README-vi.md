@@ -2,13 +2,13 @@
 
 [![](https://img.shields.io/badge/TgChat-@XrayR讨论-blue.svg)](https://t.me/XrayR_project)
 [![](https://img.shields.io/badge/Channel-@XrayR通知-blue.svg)](https://t.me/XrayR_channel)
-![](https://img.shields.io/github/stars/mikasofa/XrayR)
-![](https://img.shields.io/github/forks/mikasofa/XrayR)
-![](https://github.com/mikasofa/XrayR/actions/workflows/release.yml/badge.svg)
-![](https://github.com/mikasofa/XrayR/actions/workflows/docker.yml/badge.svg)
-[![Github All Releases](https://img.shields.io/github/downloads/mikasofa/XrayR/total.svg)]()
+![](https://img.shields.io/github/stars/xrayr-project/xrayr)
+![](https://img.shields.io/github/forks/xrayr-project/xrayr)
+![](https://github.com/xrayr-project/xrayr/actions/workflows/release.yml/badge.svg)
+![](https://github.com/xrayr-project/xrayr/actions/workflows/docker.yml/badge.svg)
+[![Github All Releases](https://img.shields.io/github/downloads/xrayr-project/xrayr/total.svg)]()
 
-[Iranian(farsi) README](https://github.com/mikasofa/XrayR/blob/master/README_Fa.md), [Vietnamese(vi) README](https://github.com/mikasofa/XrayR/blob/master/README-vi.md), [English(en) README](https://github.com/mikasofa/XrayR/blob/master/README-en.md)
+[Iranian(farsi) README](https://github.com/xrayr-project/xrayr/blob/master/README_Fa.md), [Vietnamese(vi) README](https://github.com/xrayr-project/xrayr/blob/master/README-vi.md), [English(en) README](https://github.com/xrayr-project/xrayr/blob/master/README-en.md)
 
 A Xray backend framework that can easily support many panels.
 
@@ -68,7 +68,7 @@ Dự án này chỉ là học tập và phát triển và bảo trì cá nhân c
 ### Một cài đặt chính
 
 ```
-wget -N https://raw.githubusercontent.com/mikasofa/XrayR-release/master/install.sh && bash install.sh
+wget -N https://raw.githubusercontent.com/xrayr-project/xrayr-release/master/install.sh && bash install.sh
 ```
 
 ### Sử dụng phần mềm triển khai Docker
@@ -92,7 +92,7 @@ wget -N https://raw.githubusercontent.com/mikasofa/XrayR-release/master/install.
 
 ## Licence
 
-[Mozilla Public License Version 2.0](https://github.com/mikasofa/XrayR/blob/master/LICENSE)
+[Mozilla Public License Version 2.0](https://github.com/xrayr-project/xrayr/blob/master/LICENSE)
 
 ## Telgram
 
@@ -102,4 +102,4 @@ wget -N https://raw.githubusercontent.com/mikasofa/XrayR-release/master/install.
 
 ## Stargazers over time
 
-[![Stargazers over time](https://starchart.cc/mikasofa/XrayR.svg)](https://starchart.cc/mikasofa/XrayR)
+[![Stargazers over time](https://starchart.cc/xrayr-project/xrayr.svg)](https://starchart.cc/xrayr-project/xrayr)

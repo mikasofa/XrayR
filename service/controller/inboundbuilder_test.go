@@ -3,8 +3,8 @@ package controller_test
 import (
 	"testing"
 
-	"github.com/mikasofa/XrayR/api"
-	"github.com/mikasofa/XrayR/common/mylego"
+	"github.com/xrayr-project/xrayr/api"
+	"github.com/xrayr-project/xrayr/common/mylego"
 )
 
 func TestBuildV2ray(t *testing.T) {

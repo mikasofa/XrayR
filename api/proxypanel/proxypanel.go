@@ -14,7 +14,7 @@ import (
 
 	"github.com/go-resty/resty/v2"
 
-	"github.com/mikasofa/XrayR/api"
+	"github.com/xrayr-project/xrayr/api"
 )
 
 // APIClient create a api client to the panel.

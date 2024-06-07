@@ -3,7 +3,7 @@ package mylego_test
 import (
 	"testing"
 
-	"github.com/mikasofa/XrayR/common/mylego"
+	"github.com/xrayr-project/xrayr/common/mylego"
 )
 
 func TestLegoClient(t *testing.T) {

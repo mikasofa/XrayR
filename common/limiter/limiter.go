@@ -18,7 +18,7 @@ import (
 	"github.com/redis/go-redis/v9"
 	"golang.org/x/time/rate"
 
-	"github.com/mikasofa/XrayR/api"
+	"github.com/xrayr-project/xrayr/api"
 )
 
 type UserInfo struct {
