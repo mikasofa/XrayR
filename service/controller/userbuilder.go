@@ -5,15 +5,15 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/mikasofa/xray-core/common/protocol"
-	"github.com/mikasofa/xray-core/common/serial"
-	"github.com/mikasofa/xray-core/infra/conf"
-	"github.com/mikasofa/xray-core/proxy/shadowsocks"
-	"github.com/mikasofa/xray-core/proxy/shadowsocks_2022"
-	"github.com/mikasofa/xray-core/proxy/trojan"
-	"github.com/mikasofa/xray-core/proxy/vless"
 	"github.com/sagernet/sing-shadowsocks/shadowaead_2022"
 	C "github.com/sagernet/sing/common"
+	"github.com/xtls/xray-core/common/protocol"
+	"github.com/xtls/xray-core/common/serial"
+	"github.com/xtls/xray-core/infra/conf"
+	"github.com/xtls/xray-core/proxy/shadowsocks"
+	"github.com/xtls/xray-core/proxy/shadowsocks_2022"
+	"github.com/xtls/xray-core/proxy/trojan"
+	"github.com/xtls/xray-core/proxy/vless"
 
 	"github.com/mikasofa/XrayR/api"
 )

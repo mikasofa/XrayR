@@ -13,7 +13,6 @@ require (
 	github.com/go-acme/lego/v4 v4.16.1
 	github.com/go-resty/resty/v2 v2.11.0
 	github.com/gogf/gf/v2 v2.6.4
-	github.com/mikasofa/xray-core v0.0.0-20240606050615-2cafdf2ad1cf
 	github.com/patrickmn/go-cache v2.1.0+incompatible
 	github.com/r3labs/diff/v2 v2.15.1
 	github.com/redis/go-redis/v9 v9.5.1
@@ -24,11 +23,14 @@ require (
 	github.com/spf13/cobra v1.8.0
 	github.com/spf13/viper v1.18.2
 	github.com/stretchr/testify v1.9.0
+	github.com/xtls/xray-core v1.8.13
 	golang.org/x/crypto v0.23.0
 	golang.org/x/net v0.25.0
 	golang.org/x/time v0.5.0
 	google.golang.org/protobuf v1.34.1
 )
+
+replace github.com/xtls/xray-core => ./xray-core
 
 require (
 	cloud.google.com/go/compute v1.25.1 // indirect
